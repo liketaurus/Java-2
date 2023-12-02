@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Help">
+            <file name="org-lab-MyBlog.instance">
+                <!--org.lab.MyBlog-->
+                <attr bundlevalue="org.lab.Bundle#CTL_MyBlog" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.lab.MyBlog"/>
+                <attr name="iconBase" stringvalue="org/lab/myicon.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-lab-sampleTopComponent.instance">
+                <!--org.lab.sampleTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.lab.sampleTopComponent"/>
+                <attr name="preferredID" stringvalue="sampleTopComponent"/>
+                <attr bundlevalue="org.lab.Bundle#CTL_sampleAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/lab/myicon2.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Help">
+            <file name="org-lab-MyBlog.shadow">
+                <!--org.lab.MyBlog-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-lab-MyBlog.instance"/>
+                <attr intvalue="250" name="position"/>
+            </file>
+            <file name="org-lab-MyBlog-separatorAfter.instance">
+                <!--org.lab.MyBlog-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="275" name="position"/>
+            </file>
+            <file name="org-lab-MyBlog-separatorBefore.instance">
+                <!--org.lab.MyBlog-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="225" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-lab-sampleTopComponent.shadow">
+                <!--org.lab.sampleTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-lab-sampleTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_lab">
+                <file name="sample" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.lab.sampleTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.lab//sample//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="lab">
+                    <file name="sampleTopComponent">
+                        <!--org.lab.sampleTopComponent-->
+                        <attr name="settings.providerPath" stringvalue="xml/lookups//org_lab/sample.instance"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_lab">
+                <file name="sample.instance">
+                    <!--org.lab.sampleTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.lab.sampleTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.lab.sampleTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="sampleTopComponent.settings">
+                <!--org.lab.sampleTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.lab.sampleTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="webpreview">
+                <file name="sampleTopComponent.wstcref">
+                    <!--org.lab.sampleTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="sampleTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

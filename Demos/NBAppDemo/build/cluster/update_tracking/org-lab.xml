@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.lab">
+    <module_version install_time="1701512035344" last="true" origin="installer" specification_version="1.0">
+        <file crc="1868809859" name="config/Modules/org-lab.xml"/>
+        <file crc="533377854" name="modules/org-lab.jar"/>
+    </module_version>
+</module>

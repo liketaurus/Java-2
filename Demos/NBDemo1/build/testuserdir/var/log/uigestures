@@ -1,0 +1,704 @@
+<record>
+  <date>2023-12-02T11:40:52</date>
+  <millis>1701510052302</millis>
+  <sequence>55</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>CPU INFO</message>
+  <param>16</param>
+</record>
+<record>
+  <date>2023-12-02T11:40:52</date>
+  <millis>1701510052336</millis>
+  <sequence>56</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>SCREEN SIZE</message>
+  <param>3440</param>
+  <param>1440</param>
+  <param>3</param>
+</record>
+<record>
+  <date>2023-12-02T11:40:52</date>
+  <millis>1701510052336</millis>
+  <sequence>57</sequence>
+  <level>700</level>
+  <thread>24</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2023-12-02T11:40:54</date>
+  <millis>1701510054050</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>24</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2023-12-02T11:40:57</date>
+  <millis>1701510057576</millis>
+  <sequence>86</sequence>
+  <level>800</level>
+  <thread>23</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>68658663424</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:01</date>
+  <millis>1701510061018</millis>
+  <sequence>96</sequence>
+  <logger>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <exception>
+    <message>java.io.IOException: Connection reset</message>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
+      <method>notifyException</method>
+      <line>103</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache</class>
+      <method>copy</method>
+      <line>246</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache</class>
+      <method>writeCatalogToCache</method>
+      <line>99</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider</class>
+      <method>refresh</method>
+      <line>154</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl</class>
+      <method>refresh</method>
+      <line>180</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.autoupdate.UpdateUnitProvider</class>
+      <method>refresh</method>
+      <line>196</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4</class>
+      <method>run</method>
+      <line>155</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-ui.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+  <exception>
+   <message>java.net.SocketException: Connection reset</message>
+    <frame>
+      <class>java.net.SocketInputStream</class>
+      <method>read</method>
+      <line>210</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.SocketInputStream</class>
+      <method>read</method>
+      <line>141</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.BufferedInputStream</class>
+      <method>fill</method>
+      <line>246</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.BufferedInputStream</class>
+      <method>read1</method>
+      <line>286</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.BufferedInputStream</class>
+      <method>read</method>
+      <line>345</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.http.HttpClient</class>
+      <method>parseHTTPHeader</method>
+      <line>735</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.http.HttpClient</class>
+      <method>parseHTTP</method>
+      <line>678</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.http.HttpClient</class>
+      <method>parseHTTP</method>
+      <line>706</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>getInputStream0</method>
+      <line>1587</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>access$200</method>
+      <line>91</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection$9</class>
+      <method>run</method>
+      <line>1484</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection$9</class>
+      <method>run</method>
+      <line>1482</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivilegedWithCombiner</method>
+      <line>782</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.net.www.protocol.http.HttpURLConnection</class>
+      <method>getInputStream</method>
+      <line>1481</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.net.HttpURLConnection</class>
+      <method>getResponseCode</method>
+      <line>480</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.NetworkAccess</class>
+      <method>checkRedirect</method>
+      <line>253</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.NetworkAccess</class>
+      <method>access$700</method>
+      <line>69</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2</class>
+      <method>call</method>
+      <line>172</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$2</class>
+      <method>call</method>
+      <line>150</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <method>run</method>
+      <line>266</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <method>runWorker</method>
+      <line>1149</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <method>run</method>
+      <line>624</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>748</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+   <more>0</more>
+  </exception>
+</record>
+<record>
+  <date>2023-12-02T11:41:14</date>
+  <millis>1701510074223</millis>
+  <sequence>107</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>30</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[ProductivityBlog.com.ua]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.openide.awt.AlwaysEnabledAction[ProductivityBlog.com.ua]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>ProductivityBlog.com.ua</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:15</date>
+  <millis>1701510075821</millis>
+  <sequence>108</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>30</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:41:28</date>
+  <millis>1701510088627</millis>
+  <sequence>109</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>30</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[ProductivityBlog.com.ua]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.openide.awt.AlwaysEnabledAction[ProductivityBlog.com.ua]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>ProductivityBlog.com.ua</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:29</date>
+  <millis>1701510089166</millis>
+  <sequence>110</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>35</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>118</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:29</date>
+  <millis>1701510089991</millis>
+  <sequence>111</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>30</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:41:36</date>
+  <millis>1701510096956</millis>
+  <sequence>112</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>35</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>24</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:48</date>
+  <millis>1701510108026</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:48</date>
+  <millis>1701510108046</millis>
+  <sequence>114</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2023-12-02T11:41:48</date>
+  <millis>1701510108054</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>30</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:44:52</date>
+  <millis>1701510292654</millis>
+  <sequence>55</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>CPU INFO</message>
+  <param>16</param>
+</record>
+<record>
+  <date>2023-12-02T11:44:52</date>
+  <millis>1701510292663</millis>
+  <sequence>56</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>SCREEN SIZE</message>
+  <param>3440</param>
+  <param>1440</param>
+  <param>3</param>
+</record>
+<record>
+  <date>2023-12-02T11:44:52</date>
+  <millis>1701510292663</millis>
+  <sequence>57</sequence>
+  <level>700</level>
+  <thread>24</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2023-12-02T11:44:54</date>
+  <millis>1701510294222</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>24</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2023-12-02T11:44:57</date>
+  <millis>1701510297621</millis>
+  <sequence>81</sequence>
+  <level>800</level>
+  <thread>42</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>68658663424</param>
+</record>
+<record>
+  <date>2023-12-02T11:45:15</date>
+  <millis>1701510315158</millis>
+  <sequence>83</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>31</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2023-12-02T11:45:15</date>
+  <millis>1701510315160</millis>
+  <sequence>87</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>46</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:45:15</date>
+  <millis>1701510315166</millis>
+  <sequence>88</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>31</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:39</date>
+  <millis>1701510399354</millis>
+  <sequence>55</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>CPU INFO</message>
+  <param>16</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:39</date>
+  <millis>1701510399358</millis>
+  <sequence>56</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>SCREEN SIZE</message>
+  <param>3440</param>
+  <param>1440</param>
+  <param>3</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:39</date>
+  <millis>1701510399358</millis>
+  <sequence>57</sequence>
+  <level>700</level>
+  <thread>24</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2023-12-02T11:46:40</date>
+  <millis>1701510400557</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>24</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:44</date>
+  <millis>1701510404674</millis>
+  <sequence>81</sequence>
+  <level>800</level>
+  <thread>23</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>68658663424</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:49</date>
+  <millis>1701510409361</millis>
+  <sequence>82</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>45</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:46:52</date>
+  <millis>1701510412462</millis>
+  <sequence>83</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>41</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>16</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:58</date>
+  <millis>1701510418105</millis>
+  <sequence>85</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>45</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[ProductivityBlog.com.ua]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.openide.awt.AlwaysEnabledAction[ProductivityBlog.com.ua]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>ProductivityBlog.com.ua</param>
+</record>
+<record>
+  <date>2023-12-02T11:46:59</date>
+  <millis>1701510419481</millis>
+  <sequence>86</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>45</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:47:06</date>
+  <millis>1701510426251</millis>
+  <sequence>87</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>41</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>13</param>
+</record>
+<record>
+  <date>2023-12-02T11:47:17</date>
+  <millis>1701510437666</millis>
+  <sequence>88</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2023-12-02T11:47:17</date>
+  <millis>1701510437669</millis>
+  <sequence>92</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>45</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2023-12-02T11:47:17</date>
+  <millis>1701510437674</millis>
+  <sequence>93</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>23</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>3</param>
+</record>
+<record>
+  <date>2023-12-02T11:59:28</date>
+  <millis>1701511168916</millis>
+  <sequence>55</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>CPU INFO</message>
+  <param>16</param>
+</record>
+<record>
+  <date>2023-12-02T11:59:28</date>
+  <millis>1701511168921</millis>
+  <sequence>56</sequence>
+  <level>300</level>
+  <thread>24</thread>
+  <message>SCREEN SIZE</message>
+  <param>3440</param>
+  <param>1440</param>
+  <param>3</param>
+</record>
+<record>
+  <date>2023-12-02T11:59:28</date>
+  <millis>1701511168921</millis>
+  <sequence>57</sequence>
+  <level>700</level>
+  <thread>24</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2023-12-02T11:59:30</date>
+  <millis>1701511170181</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>24</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2023-12-02T11:59:34</date>
+  <millis>1701511174581</millis>
+  <sequence>81</sequence>
+  <level>800</level>
+  <thread>41</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>68658663424</param>
+</record>
+<record>
+  <date>2023-12-02T12:00:44</date>
+  <millis>1701511244012</millis>
+  <sequence>84</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>71</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2023-12-02T12:00:44</date>
+  <millis>1701511244070</millis>
+  <sequence>85</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>71</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>7</param>
+</record>
+<record>
+  <date>2023-12-02T12:00:44</date>
+  <millis>1701511244073</millis>
+  <sequence>89</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>45</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
