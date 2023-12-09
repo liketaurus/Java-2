@@ -12,5 +12,7 @@
 
 [А ось тут](https://liketaurus.github.io/Java-2/) - приклад javadoc-документації для одного з наших прикладів:) 
 
+Нагадую, що повний відеозапис курсу (ну, майже повний) доступний на [YouTube](https://www.youtube.com/playlist?list=PL02brw29JQYizIGvXt_Oe9gCOEWPNfpVk).
+
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" align="right">
 
